@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AutoForm Magic",
+  "version": "1.0",
+  "description": "Automatically fill out repetitive forms with saved user data.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "pop-up.html",
+    "default_icon": {
+        "16":"assets/icon/popup-svgrepo-com.png"
+    } 
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
