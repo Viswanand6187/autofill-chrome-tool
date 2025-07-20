@@ -1,4 +1,4 @@
-alert("Auto-fill script running!");
+// alert("Auto-fill script running!");
 
 chrome.storage.sync.get("userData", ({ userData }) => {
   if (!userData) return;

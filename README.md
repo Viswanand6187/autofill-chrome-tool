@@ -19,7 +19,7 @@ AutoForm Magic is a Chrome extension that helps job seekers auto-fill repetitive
 
 ## Preview
 
-🎥 Watch the demo video here: [Click to view AutoForm Magic in action](https://your-video-link.com)
+🎥 Watch the demo video here: [Click to view AutoForm Magic in action](https://youtu.be/mVXAkEUJMoc)
 
 ---
 
