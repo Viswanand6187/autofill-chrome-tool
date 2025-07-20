@@ -8,7 +8,8 @@ chrome.storage.sync.get("userData", ({ userData }) => {
     if (input) input.value = value;
   };
 
-  tryFill('input[name="name"]', userData.name);
+  // tryFill('input[name="name"]', userData.name);
+  tryFill(['input[name="g4072-fullname"]'], userData.name);
   tryFill('input[name="email"]', userData.email);
   tryFill('input[type="email"]', userData.email);
   tryFill('input[name="phone"]', userData.phone);
